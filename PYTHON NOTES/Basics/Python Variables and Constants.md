@@ -32,7 +32,7 @@ g = None
 ```
 
 ###### Next
-[Print function and Datatype](./Print%20function.md)
+[Print function](./Print%20function.md)
 
 ###### Previous
-[Installation](./Installation.md)
+[Installation](./1Installation.md)
