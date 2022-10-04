@@ -1,25 +1,19 @@
-# 🔥Best repository for you to start your open source journey!!
+# 🔥Best repository for you to start your open source journey and finding notes about a language!!
+
 ## 🔼 Prerequisite required to Contribute
 
 ### Contributing Code
-- Git/GitHub
 - Programming Language
 - Data structures and algorithms
 - Problem solving
- 
-### Contributing in docs/repo maintainance/others
-- Git/GitHub
-- Markdown/Html
-- GitHub Actions/Yaml
-- CI/CD
 
----
 
 ## ✅ How to Contribute
 
 ### Pull Requests
 
 > **Must Use PR templates according to your requirement.**
+
 ### 💻Code PRs
 - Currently, we only cover problems of [LeetCode](https://leetcode.com/problemset/all/), [GeeksForGeeks](https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions) and [InterviewBit](https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions). Problems of other good platforms can be accepted(ONLY AFTER [DISCUSSIONS](https://github.com/Sagar0-0/DsA/discussions)).
 - We maintain the structure of repositroy by creating specific directories corresponding to coding platoforms i.e. [Leetcode](https://github.com/Sagar0-0/DsA/tree/main/Leetcode), [GFG](https://github.com/Sagar0-0/DsA/tree/main/GFG), [Interviewbit](https://github.com/Sagar0-0/DsA/tree/main/Interviewbit).
