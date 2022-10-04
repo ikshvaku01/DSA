@@ -46,3 +46,29 @@ But out of these 1 bit is reserved as sign bit and remaining  15 bits are used t
 So, in positive sign we can store numbers from 0 to 32767. Including positive and negative final range of an int of 16 bits will be -32768 to 32767.
 
 Sign bit is used to store the negative number. Say we want to store 10. Then 4 bits from right in order of writing from left to right would be 1010 in 16 bits it changes to 0000000000001010 for negative 10 first the binary form is complemented that is inversion of 0's and 1's with respect to positive version of the number so we get 1111111111110101 and this is called 1's complement. Then 1 is added at the rightmost bit giving us 1111111111110110 and this is called 2's complement of number. In any language the negative number is stored in the 2's complement form. Binary number is complemented called 1's complement and then added +1 to get 2's complement to get negative of original number we complemented, leading to MSB or leading bit becoming 1 for negative.
+
+
+## SIZE DATA TYPES :
+
+```css
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    char x;
+    int a;
+    float b;
+    long c;
+    double d;
+    long double e;
+    cout<<"Size of char is : "<<sizeof(x)<<" bytes."<<endl;
+    cout<<"Size of int is : "<<sizeof(a)<<" bytes."<<endl;
+    cout<<"Size of float is : "<<sizeof(b)<<" bytes."<<endl;
+    cout<<"Size of long is : "<<sizeof(c)<<" bytes."<<endl;
+    cout<<"Size of double is : "<<sizeof(d)<<" bytes."<<endl;
+    cout<<"Size of long double is : "<<sizeof(e)<<" bytes."<<endl;
+    
+    return 0;
+}
+```
