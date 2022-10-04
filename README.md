@@ -1,3 +1,5 @@
+![](https://user-images.githubusercontent.com/1830380/193360152-0902f5c1-2565-45ae-9975-aa44a0c2c933.png)
+
 ## 🔥Reasons to contribute in this repostory
 
 I have noticed that there is not a proper repository for the students to reference for notes . The online notes in various platforms are just too old to be referenced as good sources for the quaterly or annually updated languages or the development guildelines needed for the same. I request the viewer if he/she is on journey to make his/her notes on a language he/she finds online is inadequate as a reference so please contribute here to helps us make a proper repository for the same. You will find various programming languages and solutions to various competitive problems solved by contributors in various sites. In future it will also contain a Database of all the possible question asked in gate and interview round.🔥
