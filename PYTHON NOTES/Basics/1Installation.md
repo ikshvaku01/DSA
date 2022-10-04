@@ -13,7 +13,7 @@ Through this github repository you will learning basics of python
 
 Python can be installed from https://www.python.org. Python in supported in almost all os like windows, linux, mac etc
 
-###### Windows
+#### Windows
 
 Python can be directly installed from python.org 
 
@@ -54,7 +54,7 @@ In the Start menu, search for “advanced system settings”. Select “View adv
 
 Now run ``` python``` in command prompt to check whether python has installed in your system
 
-###### Linux
+#### Linux
 
 Python is normally pre-installed with linux. If you want to check if python is installed then run ``` python --version ``` 
 
@@ -71,7 +71,7 @@ if not present then follow below step
 ```sudo dnf install python3```
 
 
-###### Mac
+#### Mac
 
 You can go for installation from offical site. Almost same installation steps as of windows
 
@@ -85,5 +85,5 @@ brew install python3
 ```
 End of installation lets head to basics python variables, constants etc
 
-###### Next
+#### Next
 [Python Variables and Constants](./Python%20Variables%20and%20Constants.md)
