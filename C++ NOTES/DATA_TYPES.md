@@ -1,9 +1,15 @@
-# WHAT IS DATA TYPES IN C++
+# DATA TYPES IN C++
 
-Data in a program is kept in variables which are capable of storing a certain kind of data formats called data types.
+* Types are fundamental to any program. They tell us what our data
+mean and what operations we can perform on those data.
+
+* C++ has extensive support for types. The language defines several
+primitive types (characters, integers, floating-point numbers, etc.)
+and provides mechanisms that let us define our own data types.
+The library uses these mechanisms to define more complicated types
+such as variable-length character strings, vectors, and so on.
 
 ## Data Types can be categorised into 3 types :
-
 
 1. Built-in Data Types (Primitives)
 2. Derived Data Types
@@ -11,6 +17,14 @@ Data in a program is kept in variables which are capable of storing a certain ki
 
 ![](https://simplesnippets.tech/wp-content/uploads/2018/03/c-datatypes.jpg)
 
+### Primitive Built-in Types
+C++ defines a set of primitive types that include the `arithmetic types` and a special
+type named `void`. The arithmetic types represent characters, integers, boolean
+values, and floating-point numbers. The void type has no associated values and
+can be used in only a few circumstances, most commonly as the return type for
+functions that do not return a value.
+
+#### Arithmetic Types
 
 
 |   DATA TYPE   |      MEANING      |    SIZE     |
@@ -25,8 +39,9 @@ Data in a program is kept in variables which are capable of storing a certain ki
 |     long      |   long-integer    |   32-bits   |
 |   long long   | very-long integer |   64-bits   |
 | unsigned char | single-precision  |   32-bits   |
-|     float     | double-precision  |   64-bits   |
-|    double     | double-precision  | 10/16 bytes |
+|     float     | single-precision floating-point |   6-bits   |
+|    double     | double-precision floating point | 10 bits |
+|  long double  | extended-precision floating-point| 16 bits|
 
 
 
@@ -48,10 +63,10 @@ So, in positive sign we can store numbers from 0 to 32767. Including positive an
 Sign bit is used to store the negative number. Say we want to store 10. Then 4 bits from right in order of writing from left to right would be 1010 in 16 bits it changes to 0000000000001010 for negative 10 first the binary form is complemented that is inversion of 0's and 1's with respect to positive version of the number so we get 1111111111110101 and this is called 1's complement. Then 1 is added at the rightmost bit giving us 1111111111110110 and this is called 2's complement of number. In any language the negative number is stored in the 2's complement form. Binary number is complemented called 1's complement and then added +1 to get 2's complement to get negative of original number we complemented, leading to MSB or leading bit becoming 1 for negative.
 
 
+
 ## SIZE DATA TYPES :
 
-```css
-
+```cpp
 #include <iostream>
 using namespace std;
 int main()
