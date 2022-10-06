@@ -1,4 +1,4 @@
-# STRINGS
+# ARRAYS
 
 An array is a data structure consisting of a collection of elements, each identified by at least one array index or key. An array is stored such that the position of each element can be computed from its index tuple by a mathematical formula
 
@@ -7,10 +7,10 @@ An array is a data structure consisting of a collection of elements, each identi
 
 
 
-## Traversing a String:
+## Traversing an Array:
 
 ### `Naive Approach` :
-The simplest approach to solve this problem is to iterate a loop over the range>
+The simplest approach to solve this problem is to iterate a loop over the range
 * `Time Complexity : O(N)`
 * `Auxiliary Space : O(1)`
 ```cpp
@@ -23,7 +23,7 @@ void TraverseArray(int a[], int N)
         // Traverse the array using naive approach
         for (int i = 0; i < N; i++)
         {
-                cout<< a[i]<< " ";
+                cout<< a[i] << " ";
         }
 }
 int main()
@@ -32,7 +32,7 @@ int main()
         // N stores length of the array
 
         int N = 5;
-        TraverseString(a, N);
+        TraverseArray(a, N);
         return 0;
 }
 ```
