@@ -38,12 +38,3 @@ Step 3 : **k = ((a+b)+(c * d))** This is how compiler will treat the expression.
 ## Root 2 = (-b - sqrt(b * b - 4* a * c))/2*a
 
 - ## Speed Formula, s = (v * v - u * u) /2*a
-
-
-
-
-
-
-
-
-
